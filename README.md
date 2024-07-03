@@ -9,7 +9,7 @@
 
 ### 1. Download the Script
 
-Save the script to a file named `WindowsUpdates.ps1`.
+Save the script to a file named `Windows11DriversUpdater.ps1`.
 # Open PowerShell as Administrator
 To run the script, you need to open PowerShell with administrative privileges:
 
