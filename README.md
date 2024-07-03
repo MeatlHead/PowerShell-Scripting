@@ -13,7 +13,8 @@ Save the script to a file named `Windows11DriverUpdater.ps1`.
 
 ### Additional Notes:
 - Open the `Windows11DriverUpdater.ps1` file on any text editor.
-- Replace `<YourUsername>` in the log file path with your actual username.
+- Replace `<USERPROFILE>` in the log file path with your actual PATH if you need to specify any other location other than the default 
+PATH "$env:USERPROFILE\driver_update_log.txt".
 - The `Set-ExecutionPolicy RemoteSigned -Scope Process -Force` command allows running the script in the current PowerShell session.
 - You might need to adjust the execution policy settings if you encounter any issues.
 
