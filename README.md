@@ -9,7 +9,7 @@
 
 ### 1. Download the Script
 
-Save the script to a file named `Windows11DriversUpdater.ps1`.
+Save the script to a file named `Windows11DriverUpdater.ps1`.
 # Open PowerShell as Administrator
 To run the script, you need to open PowerShell with administrative privileges:
 
@@ -17,7 +17,6 @@ Click on the Start menu.
 Type PowerShell.
 Right-click on Windows PowerShell and select Run as administrator.
 
-## Set-ExecutionPolicy RemoteSigned -Scope Process -Force
 ## Setting PowerShell Execution Policy to RemoteSigned
 The PowerShell execution policy determines which scripts can be run on your system. By default, PowerShell restricts running scripts for security reasons. Setting the execution policy to RemoteSigned allows you to run scripts that you create locally and those that are downloaded from the internet (only if they are signed by a trusted publisher).
 
@@ -42,13 +41,13 @@ Once PowerShell is open with administrative privileges, type the following comma
 Verify the Execution Policy:
 
 You can verify that the execution policy has been set correctly by running on a PowerShell Console:
-## Get-ExecutionPolicy -List
+>> Get-ExecutionPolicy -List
 This command will display the execution policies for different scopes. You should see RemoteSigned set for the Process scope..
 # Run the WindowsDriversUpdater Script
-Navigate to the directory where you saved the WindowsUpdates.ps1 script. Use the following command to run the script:
+Navigate to the directory where you saved the Windows11DriverUpdater.ps1 script. Use the following command to run the script:
 
 ### Now type this on PowerShell to Run the drivers updater script 
->> .\Windows11DriversUpdater.ps1
+>> .\Windows11DriverUpdater.ps1
 ## Follow the On-Screen Instructions
 ## The script will:
 
