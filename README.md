@@ -42,7 +42,7 @@ Verify the Execution Policy:
 
 You can verify that the execution policy has been set correctly by running on a PowerShell Console:
 >> Get-ExecutionPolicy -List
-This command will display the execution policies for different scopes. You should see RemoteSigned set for the Process scope..
+### This command will display the execution policies for different scopes. You should see RemoteSigned set for the Process scope..
 # Run the WindowsDriversUpdater Script
 Navigate to the directory where you saved the Windows11DriverUpdater.ps1 script. Use the following command to run the script:
 
